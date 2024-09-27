@@ -16,7 +16,7 @@ public class Ej24 {
                 break;
             }
 
-            if (nota >= 0 && nota <= 10) {
+            if (nota <= 10 && nota >= 0) {
                 sumaNotas += nota;
                 Notas++;
 
